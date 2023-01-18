@@ -5,8 +5,9 @@ The program must be in the same path as a "data" file folder. This folder must c
 and the origin-destination pairs on which the algorithm will be tested in the file "instances-LET.txt."
 
 To run the algorithm, access the command prompt and run the following command: LET-Pulse.exe X, 
-where X is the instance number you want to execute (it will execute the instance in line X of the "instances-LET.txt" file). 
-You can also run batches of experiments using a ".bat" file.  
+where X is the instance number you want to execute (it will execute the instance in line X-1 of the "instances-LET.txt" file). 
+You can also run batches of experiments using a ".bat" file. 
+See the examples (SiouxFallsSTD and BarcelonaSTD) to understand format requirements. 
 
 The results are reported in the file "results-LET.txt", including the optimal solution and the running time (in milliseconds). 
 This program has a running time limit of 600 seconds. 
